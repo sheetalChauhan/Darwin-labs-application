@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="lab.darwin.com.darwinapplication.SendActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="25dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/backicon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:text="SEND"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="AMOUNT"
+            android:textColor="#CBCBCB"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:gravity="right"
+            android:text="0.0 ETM"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:text="= 0.0 USD"
+        android:textColor="#CBCBCB"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="25dp"
+        android:background="#f6f6f6">
+
+    </LinearLayout>
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:columnCount="3"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:background="#ffffff"
+            android:padding="10dp"
+
+            android:text="1"
+            android:textColor="#999999"
+
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:text="2"
+            android:textColor="#999999"
+
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:text="3"
+            android:textColor="#999999"
+
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:text="4"
+            android:textColor="#999999"
+
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:text="5"
+            android:textColor="#999999"
+
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:text="6"
+            android:textColor="#999999"
+
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:text="7"
+            android:textColor="#999999"
+
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:text="8"
+            android:textColor="#999999"
+
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:text="9"
+            android:textColor="#999999"
+
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/cross"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/backspace"
+            android:gravity="center"
+         />
+
+        <Button
+            android:id="@+id/zero"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:text="0"
+            android:textColor="#999999"
+            android:textSize="18dp" />
+
+
+        <Button
+            android:id="@+id/point"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:text="."
+            android:textColor="#999999"
+            android:textSize="18dp" />
+
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/forwardchevron" />
+</LinearLayout>
